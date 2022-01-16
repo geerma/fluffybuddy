@@ -5,7 +5,9 @@
 * {
    box-sizing: border-box;
    margin: 0;
-   font-family: "Fira Sans", "san serif" ;
+   font-family: "Atkinson Hyperlegible", "Times News Romans";
+   
+   
    
 }
 
@@ -13,9 +15,18 @@ body {
     display: flex;
     flex-direction: column ;
     min-height: 100 vh;
-    background: white;
     color: black;
+    border: 20px;
+    
+}
 
+#list-body {
+    border: solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    background-color: rgb(223, 224, 223);
+    
 }
 
 header {
@@ -29,7 +40,7 @@ header {
 header h1 {
     font-size: 60px;
     font-weight: bold;
-    color: rgb(61, 3, 61);
+    color: black;
     padding: 30px;
 }
 
@@ -44,6 +55,7 @@ input, button {
 #new-task-add {
     text-align: center;
     margin: 0 auto;
+    
     padding: 30px;
     flex: 1 1 0%;
 }
@@ -51,13 +63,15 @@ input, button {
 #new-task-text {
     background: rgb(170, 170, 170);
     border-radius: 20px;
-    padding: 20px;
+    padding: 15px;
+    font-size: 20px;
+    
     
 }
 
 #new-task-text::placeholder {
     color: black;
-    font-size: 20px;
+    
 }
 
 #new-task-add-task {
@@ -82,17 +96,20 @@ main {
 
 #tasks-list {
     padding: 20px;
+    
 }
 
 #tasks-list h2 {
     font-size: 40px;
-    color:rgb(61, 3, 61);
+    color: black;
     padding: 10px;   
+    font-weight: bold;
 }
 
 #tasks {
-    display: flex;
+    /*display: flex;*/
     justify-content: space-between;
+    font-size: 30px; 
   
     
 }
@@ -102,15 +119,24 @@ main {
     background: rgb(170, 170, 170);
     border-radius: 20px;
     padding: 15px;
+    display: flex;
     
 }
 
-#task-text {
-    font-size: 20px;
-    display: block;
+.task .content {
+    flex: 1 1 0%;
 }
 
-#edit, #delete{
+
+.task .content .task-text {
+    font-size: 20px;
+    display: inline-block;
+    padding: 15px;
+
+    
+}
+
+.edit, .delete{
     border-radius: 30px;
     cursor: pointer;
     font-size: 20px;
@@ -118,13 +144,13 @@ main {
     padding: 15px;
 
 }
-#edit:hover {
+.edit:hover {
     background: black;
     color: white;
     padding: 15px;
 }
 
-#delete:hover {
+.delete:hover {
     background: black;
     color: white;
     padding: 15px;
