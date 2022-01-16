@@ -4,7 +4,7 @@ Atmosphere, mood, and environment are factors that can affect concentration and 
 
 ## About
 
-This project was created for nwHacks 2022. It was a majority of our team member's first hackathon and we decided to create a study website that had music, to-do-lists, and a timer. We also wanted to challenge ourselves by looking at public APIs. Since we all love animals, we decided to grab randomized pictures of foxes and cats and have them be our "study companions".
+This project was created for nwHacks 2022. It was a majority of our team member's first hackathon and we decided to create a study website that had music, to-do-lists, and a timer. We also wanted to challenge ourselves by looking into public APIs. Since we all love animals, we decided to grab randomized pictures of foxes and cats and have them be our "study companions".
 
 ## See our demo video and presentation slides below
 
